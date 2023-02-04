@@ -1,4 +1,4 @@
-#include "test.dtsi"
+#include "soflecustom.dtsi"
 
 &kscan0 {
 	col-gpios
