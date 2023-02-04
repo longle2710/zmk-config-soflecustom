@@ -1,0 +1,12 @@
+file_format: "1"
+id: soflecustom
+name: SofleCustom
+type: shield
+url: https://github.com/longle2710/zmk-config-test
+requires: [seeeduino_xiao_ble]
+exposes: 
+features:
+  - keys
+siblings:
+  - soflecustom_left
+  - soflecustom_right

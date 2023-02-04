@@ -1,0 +1,16 @@
+if SHIELD_SOFLECUSTOM_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Sofle"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_SOFLECUSTOM_LEFT || SHIELD_SOFLECUSTOM_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif

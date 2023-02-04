@@ -1,0 +1,5 @@
+config SHIELD_SOFLECUSTOM_LEFT
+    def_bool $(shields_list_contains,soflecustom_left)
+
+config SHIELD_SOFLECUSTOM_RIGHT
+    def_bool $(shields_list_contains,soflecustom_right)
