@@ -13,4 +13,13 @@ if SHIELD_SOFLECUSTOM_LEFT || SHIELD_SOFLECUSTOM_RIGHT
 config ZMK_SPLIT
 	default y
 
+config ZMK_SLEEP
+	default y
+
+config CONFIG_ZMK_IDLE_SLEEP_TIMEOUT
+	default 60000
+
+config CONFIG_ZMK_IDLE_TIMEOUT
+	default 15000
+
 endif
