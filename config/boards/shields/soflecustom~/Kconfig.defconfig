@@ -10,6 +10,9 @@ endif
 
 if SHIELD_SOFLECUSTOM_LEFT || SHIELD_SOFLECUSTOM_RIGHT
 
+config ZMK_POINTING
+    default y
+
 config ZMK_SPLIT
 	default y
 
