@@ -19,4 +19,7 @@ config ZMK_SPLIT
 config ZMK_SLEEP
 	default y
 
+config CONFIG_ZMK_PM_SOFT_OFF
+	default y
+
 endif
